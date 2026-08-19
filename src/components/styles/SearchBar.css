@@ -1,0 +1,41 @@
+.search-bar{
+    text-align: center;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.search-bar .input{
+    padding: 0.8rem;
+    width: 65%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size:  1rem;
+}
+
+.search-bar .btn1{
+    margin-left: 10px;
+    padding: 0.8rem 1rem;
+    background: #ff8a00;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.clear-btn{
+    position: absolute;
+    right: 20%;
+    top:50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #999;
+    transition: 0.3s ease;
+
+}
+
+.clear-btn:hover{
+    color: #807f7f;
+}

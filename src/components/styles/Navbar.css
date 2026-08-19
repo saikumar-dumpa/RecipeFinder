@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1.8rem;
+    background: linear-gradient(135deg,#ff8a00,#e52e71);
+    color: #fff;
+    cursor: pointer;
+}
+
+.dark-btn{
+    background: #fff;
+    color: #e52e71;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
