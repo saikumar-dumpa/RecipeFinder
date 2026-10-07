@@ -1,16 +1,30 @@
-# React + Vite
+# 🍳 Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built with React.js that helps users discover recipes quickly. Search recipes, filter by categories, view full cooking instructions, and watch YouTube tutorials.
 
-Currently, two official plugins are available:
+### ✨ Live Demo
+**[Click Here to View Live](https://your-vercel-link.vercel.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🌟 Features
+- 🔍 Search recipes by name 
+- 📖 Detailed ingredients & instructions
+- 🎬 YouTube video integration
+- 🌙 Light / Dark Mode
+- 📱 100% Responsive Design
+- ⏳ Loading & ❌ Not-Found states
 
-## React Compiler
+### 🛠️ Tech Stack
+- React.js, JavaScript, HTML, CSS
+- REST API - TheMealDB
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🚀 Run Locally
+```bash
+git clone https://github.com/saikumar-dumpa/Recipe-Finder.git
+cd Recipe-Finder
+npm install
+npm run dev
 
-## Expanding the ESLint configuration
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎯 Purpose
+This project was developed to practice React.js, API integration, component-based development, state management, responsive UI design, and JavaScript fundamentals.

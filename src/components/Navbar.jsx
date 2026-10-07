@@ -4,7 +4,7 @@ const Navbar = ({toggleDarkMode,darkMode,onHomeClick}) => {
   return (
     <div className='navbar'>
       <h1 className='logo' onClick={onHomeClick}>
-        Recipe Finder
+        &#128269; Recipe Finder
       </h1>
       <button onClick={toggleDarkMode} className='dark-btn'>
         {darkMode ? "Light Mode":"Dark Mode"}
